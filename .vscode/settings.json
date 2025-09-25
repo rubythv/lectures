@@ -1,8 +1,6 @@
 {
     "python.terminal.executeInFileDir": true,
     "git.rebaseWhenSync": true,
-    "python.condaPath": "/opt/conda/bin/conda",
-    "python.defaultInterpreterPath": "/opt/conda/bin/python",
     "python.terminal.activateEnvironment": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python-envs.defaultEnvManager": "ms-python.python:conda",
