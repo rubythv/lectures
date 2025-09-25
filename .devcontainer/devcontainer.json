@@ -48,6 +48,7 @@
                 "python.analysis.addHoverSummaries": false,
                 "python.analysis.supportDocstringTemplate": false,
                 "editor.inlineSuggest.enabled": false,
+                "editor.parameterHints.enabled": false,
                 "editor.snippetSuggestions": "none",
                 "jupyter.executionAnalysis.enabled": false,
                 "workbench.settings.showAISearchToggle": false,
