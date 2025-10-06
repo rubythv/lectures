@@ -8,7 +8,28 @@ def first_fit(item_list, bin_size):
     Output:
         bins (list): a list of bins with what's inside of each bin at the end.
     '''
-    pass
+    #start a liost of bins
+    bins[0]
+
+    #sort items with decreasing size
+    sorted_items=sorted(sorted_items, reverse=True)
+
+    #Loop over the items
+    for item in item_list:
+        #Loop over the open bins
+        for b in range(len(bins)):
+
+            #Does the item fit?
+            if item+bins[b]<=bin_size:
+                #Yes, place the item
+                bins[b]+=item
+
+        #If item has not been placed
+        #start a new bin and place it here
+        if ...:
+            bins.append(item)
+
+    return bins
 
 
 
